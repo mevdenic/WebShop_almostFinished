@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Comfort Zone</title>
+    <link rel="icon" href="favicon.png?">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dbeb94d175.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="title"> 
+                <h1>The Comfort Zone</h1>
+                <p class="subtitle">World of furniture</p>
+            </div>
+            <nav class="nav-header">
+                <ul class="nav-list-header">
+                    <li class="header-list-item"><a href="index.html" class="item-link">Home</a></li>
+                    <li class="header-list-item"><a href="categories.html" class="item-link">Categories</a></li>
+                    <li class="header-list-item cart-icon"><i class="fa fa-shopping-cart icon-link" id="cart-icon"></i><div class="cart-ammount" id="cart-ammount">0</div></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <h2 class="cart-title">Your cart</h2>
+                
+                <div class="cart-content" id="cart-content">
+                    <div id="empty-div">Cart is empty.</div>
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button class="buy-btn">Buy now</button>
+                <i class="fa-solid fa-xmark icon-link" id="cart-close"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="categories">
+            <div class="category"><a href="kitchen.html" class="highlighted">Kitchen</a></div>
+            <div class="category"><a href="living-room.html">Living room</a></div>
+            <div class="category"><a href="bedroom.html">Bedroom</a></div>
+            <div class="category"><a href="chairs.html">Chairs</a></div>
+            <div class="category"><a href="tables.html">Tables</a></div>
+            <div class="category"><a href="sofas.html">Sofas</a></div>
+            <div class="category"><a href="beds.html">Beds</a></div>
+            <div class="category"><a href="lamps.html">Lamps</a></div>
+            <div class="category"><a href="sideboards.html">Sideboards</a></div>
+        </div>
+
+        <div class="trending-grid">
+            <div class="trending-item"><a href="items/product-page.html" class="home-link"><img class="trend-img" src="images/chair1.jpg" id="img1"><div class="item-desc-flex"><p class="item-description">Curran Quilted Granite Counter Stool</p><p class="price">$429.00</p></div></a></div>
+
+            <div class="trending-item"><a href="items/product-page.html" class="home-link"><img class="trend-img" src="images/chair2.jpg" id="img2"><div class="item-desc-flex"><p class="item-description">Curran Crema Dining Chair</p><p class="price">$349.00</p></div></a></div>
+
+            <div class="trending-item"><a href="items/product-page.html" class="home-link"><img class="trend-img" src="images/table1.jpg" id="img3"><div class="item-desc-flex"><p class="item-description">Zahn 54" Charcoal Grey Round Dining Table</p><p class="price">$1,699.00</p></div></a></div>
+
+            <div class="trending-item"><a href="items/product-page.html" class="home-link"><img class="trend-img" src="images/table2.jpg" id="img4"><div class="item-desc-flex"><p class="item-description">Basque 65" Light Brown Solid Wood Dining Table</p><p class="price">$799.00</p></div></a></div>
+
+            <div class="trending-item"><a href="items/product-page.html" class="home-link"><img class="trend-img" src="images/chair3.jpg" id="img7"><div class="item-desc-flex"><p class="item-description">Abaco Resin Wicker Charcoal Dining Chair</p><p class="price">$649.00</p></div></a></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="name">
+                <div class="title">
+                    <h1>The Comfort Zone</h1>
+                    <p class="subtitle">World of furniture</p>
+                    <nav class="icons">
+                        <ul class="icon-list">
+                            <li><a href="#" class="icon-link"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                            <li><a href="#" class="icon-link"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+                            <li><a href="#" class="icon-link"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                        </ul> 
+                    </nav>
+                </div>
+                <nav class="nav-footer">
+                    <ul class="nav-list-footer">
+                        <li class="footer-list-item"><a href="#" class="item-link">About</a></li>
+                        <li class="footer-list-item"><a href="#" class="item-link">Location</a></li>
+                        <li class="footer-list-item"><a href="#" class="item-link">Contact</a></li>
+                        <li class="footer-list-item"><a href="#" class="item-link">Partner program</a></li>
+                        <li class="footer-list-item"><a href="#" class="item-link">Delivery options</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <p class="signature"><i>Designed by mevdenic</i></p>
+    </footer>
+    <script src="main.js"></script>   
+</body>
+</html>
