@@ -909,7 +909,7 @@ footer{
         font-size: 1rem;
     }
     .item-description{
-        margin-top: 0;
+        padding-top: 0;
     }
     .trend-img{
         height: 80%;
