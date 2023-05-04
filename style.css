@@ -628,11 +628,14 @@ footer{
 }
 
 .counter-component{
+    display: grid;
+    place-content: center;
     margin: 0 1rem;
     font-size: 1.5rem;
     height: 3rem;
     width: 3rem;
     cursor: pointer;
+    color: black;
     background-color: white;
     border: 1px solid black;
     transition: 0.3s;
