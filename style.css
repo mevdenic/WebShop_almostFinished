@@ -908,4 +908,14 @@ footer{
     .item-description{
         padding-top: 0;
     }
+    
+    .item-desc-flex{
+        height: 35%;
+    }
+    .price {
+        font-size: 1rem;
+    }
+    .trend-img{
+        height: 65%;
+    }
 }
