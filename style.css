@@ -902,20 +902,13 @@ footer{
     .flexbox-scroll{
         margin-bottom: 2rem;
     }
-    .price {
-        font-size: 1rem;
-    }
-    .item-description{
-        padding-top: 0;
-    }
-    
     .item-desc-flex{
-        height: 35%;
+        min-height: 30%;
     }
     .price {
         font-size: 1rem;
     }
     .trend-img{
-        height: 65%;
+        height: 70%;
     }
 }
