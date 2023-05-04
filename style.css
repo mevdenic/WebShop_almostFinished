@@ -710,6 +710,11 @@ footer{
     .trend-img{
         height: 70%;
     }
+    .scroll-item{
+        height: 100%;
+        border-top: none;
+        border-bottom: none;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
@@ -791,6 +796,11 @@ footer{
     
     .trend-img{
         height: 70%;
+    }
+    .scroll-item{
+        height: 100%;
+        border-top: none;
+        border-bottom: none;
     }
     
 }
@@ -913,5 +923,10 @@ footer{
     }
     .trend-img{
         height: 70%;
+    }
+    .scroll-item{
+        height: 100%;
+        border-top: none;
+        border-bottom: none;
     }
 }
